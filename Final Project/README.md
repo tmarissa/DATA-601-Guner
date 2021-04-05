@@ -19,39 +19,39 @@ The original 1987 National Indonesia Contraceptive Prevalence Survey was very ex
 # Table of Content
 - Data are from contraceptive_method_dataset.csv
 - Notebooks:
-	- [CM_Getting Data](https://github.com/tmarissa/Population-Explosion-or-Decline-/blob/main/CM_Data%20Preparation.ipynb)
+	- [CM_Getting Data](https://github.com/tmarissa/DATA-601/blob/main/Final%20Project/CM_Getting%20Data.ipynb)
 		- This is getting data from the __[online source](https://www.mldata.io/dataset-details/contraceptive_method/)__
 		- The data is called contraceptive_data which is named after the the title, "Contraceptive Method" - CM.
 
-	- [CM_Exploration Data Analysis 1](https://github.com/tmarissa/Population-Explosion-or-Decline-/blob/main/CM_Exploration%20Data%20Analysis%201.ipynb)
+	- [CM_Exploration Data Analysis 1](https://github.com/tmarissa/DATA-601/blob/main/Final%20Project/CM_Exploration%20Data%20Analysis%201.ipynb)
 		- Using describe, different statistical details  are provided such as mean, standard deviation, minimum, maximum, 25%, 50%, and 75%
 		- Using box plot, visualization of the data while the outliers were cleaned.
 		- Using histogram, further exploration of the data by visualization.
 
-	- [CM_Exploration Data Analysis 2](https://github.com/tmarissa/Population-Explosion-or-Decline-/blob/main/CM_Exploration%20Data%20Analysis%202.ipynb)
+	- [CM_Exploration Data Analysis 2](https://github.com/tmarissa/DATA-601/blob/main/Final%20Project/CM_Exploration%20Data%20Analysis%202.ipynb)
 		- The dataset is being assigned to X and y variable. X are all attributes besides children while the y is assigned for the attribute children. The y is split into a binary variable. 
  		- Logistic Regression is performed using Statsmodel. Logit function is used in this process. A model is made and is fitted.
 	 	- Odd Ratios is needed to interpret logistic model. First, the results have to exponentiated. The values are interpreted as odds ratios. Its analogy is closes to "how many times likely" the outcome will be.
 
-	 - [CM_Data Preparation](https://github.com/tmarissa/Population-Explosion-or-Decline-/blob/main/CM_Data%20Preparation.ipynb)
+	 - [CM_Data Preparation](https://github.com/tmarissa/DATA-601/blob/main/Final%20Project/CM_Data%20Preparation.ipynb)
 	 	- The dataset is Train Test Split
 	 	- Standard Scaling is applied
 	 	- Plotting the Logistic Regreesion Chart using PCA
 
-	- [CM_CM_Logistic Regression Unregularized and Regularized.ipynb](https://github.com/tmarissa/Population-Explosion-or-Decline-/blob/main/CM_Logistic%20Regression%20Unregularized%20and%20Regularized.ipynb)
+	- [CM_CM_Logistic Regression Unregularized and Regularized.ipynb](https://github.com/tmarissa/DATA-601/blob/main/Final%20Project/CM_Logistic%20Regression%20Unregularized%20and%20Regularized.ipynb)
 		- Logistic Regression Modeling was applied. 
 		- Without Regularization
 		- With Regularization with Ridge
 		- With Regularization with Lasso
 				 
-	- [CM_Decision Tree.ipynb](https://github.com/tmarissa/Population-Explosion-or-Decline-/blob/main/CM_Decision%20Tree.ipynb)
+	- [CM_Decision Tree.ipynb](https://github.com/tmarissa/DATA-601/blob/main/Final%20Project/CM_Decision%20Tree.ipynb)
 		- Decision Tree
 			- Preliminary Classification 
 			- Plotting of the Confusion Matrix
 			- Cross Validation Score Plot
 			- Cross Validation in 5 Split
 
-	- [CM_K-Means, LogReg, Lasso and Ridge Charts](https://github.com/tmarissa/Population-Explosion-or-Decline-/blob/main/CM_K-Means%2C%20LogReg%2C%20Lasso%20and%20Ridge%20Charts.ipynb)
+	- [CM_K-Means, LogReg, Lasso and Ridge Charts](https://github.com/tmarissa/DATA-601/blob/main/Final%20Project/CM_K-Means%2C%20LogReg%2C%20Lasso%20and%20Ridge%20Charts.ipynb)
 		- K-Means
 			- Calinski Harbasz Method
 			- Silhouette Method
