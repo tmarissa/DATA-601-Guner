@@ -39,7 +39,7 @@ The interest in the population explosion or extinction is a concern to many, fro
 
 # Explore the Models
 
- - ### [CM_Logistic Regression Unregularized and Regularized](https://github.com/tmarissa/Population-Explosion-or-Decline-/blob/main/CM_Logistic%20Regression%20Unregularized%20and%20Regularized.ipynb)
+ - ### [CM_Logistic Regression Unregularized and Regularized](https://github.com/tmarissa/DATA-601/blob/main/Final%20Project/CM_Logistic%20Regression%20Unregularized%20and%20Regularized.ipynb)
  	- Logistic Regression was choosen because this has categorical data whose variables are not continuous.
 	- For this Logistic Regression Model without Regularization. The Accuracy of the Test score is 0.7769 ~ 0.7769156159068865 while the Accuracy of the Train Score is  0.7534 ~ 0.753393665158371. Here is the Test Score is higher than the Train Score. The Accuracy Score of this plot confusion matrix is approximately 0.7769 ~ 0.77691561590.
 	- The plot confusion matrix for the Logisic Regression is interpreted as of the No Population Increase (index 0) 454 which is 324 + 130, 324 (71.36%) is correctly classified. On the other hand the Population Increase (index 1) 577 which is 477 + 100, 477 (82.66897%) is correctly classified. 
@@ -58,7 +58,7 @@ The interest in the population explosion or extinction is a concern to many, fro
 
  - As presented in Explore the Models of this Jupyter "Report", Cross Validation was applied to fit models which is to pick optimal parameters for regularization. Cross validation of 5 split was applied to regularization of the Decision Tree, Ridge, and Lasso which is to prevent overfitting of data.
  - Regularization is needed to reduce complexity and helps increase model's interpretability. Two regularization techniques was chosen. Ridge prevents overfitting while Lasso provides sparse solutions. 
- - Refer to [CM_Logistic Regression Unregularized and Regularized](https://github.com/tmarissa/Population-Explosion-or-Decline-/blob/main/CM_Logistic%20Regression%20Unregularized%20and%20Regularized.ipynb)
+ - Refer to [CM_Logistic Regression Unregularized and Regularized](https://github.com/tmarissa/DATA-601/blob/main/Final%20Project/CM_Logistic%20Regression%20Unregularized%20and%20Regularized.ipynb)
 	- The Vanilla Log Regression (Accuracy) without regularization is 0.772 +/- 0.027.
 	- Regularized Log Regression (Ridge) 5 fold cv results (Accuracy) 0.775 +/- 0.025.
 	- Regularized Log Regression (Lasso) 5-fold cv results (Accuracy) 0.770 +/- 0.024.
